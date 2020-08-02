@@ -1,0 +1,271 @@
+hr{
+border: 6px dotted #c7c7c7;
+    border-bottom: none;
+    width: 5%;
+    border-width: 15%;
+    margin: 30px auto 30px auto;
+}
+/* smit logo section  */
+.smit-logo{
+    text-align: center;
+}
+.smit-logo-image{
+    width: 30%;
+}
+
+/* navbar */
+.nav-item{
+    padding: 0 8px;
+}
+
+/* carousel */
+.container-fluid{
+    padding: 0;
+}
+#image{
+    text-align: center;
+}
+@media(max-width: 630px){
+   .carousel-image{
+       width: 630px;
+       height: 300px;
+   }
+}
+
+/* Heading  */
+
+#heading-big{
+    text-align: center;
+    padding: 7% 7%;
+}
+#heading-big .heading-big-content{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 750;
+    font-size: 2.4rem;
+}
+#heading-big .heading-big-content-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #6a2c70;
+}
+#heading-big .heading-big-content-h5{
+    font-family: monospace;
+}
+@media (max-width: 630px){
+#heading-big .heading-big-content{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 750;
+        font-size: 1.4rem;
+    }
+#heading-big .heading-big-content-h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        color: #6a2c70;
+    }
+#heading-big .heading-big-content-h5{
+        font-family: monospace;
+    }
+}
+/* Sub heading  */
+.heading-details{
+    background-color: #eeeeee;
+    padding: 5% 5%;
+}
+.heading-details-heading{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #6a2c70;
+    line-height: 5rem;
+}
+.heading-details-content{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+/* SECTION ICTM  */
+#ICTM .col-custom-ICTM{
+    padding: 10px 3px;
+}
+#ICTM .ICTM-container{
+    padding: 50px 4px;
+}
+#ICTM .card-header{
+    color: #fff;
+    background-color: #6a2c70;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+/* Section Submition  */
+#submition .card-header{
+    color: #fff;
+    background-color: #6a2c70;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+#submition .card-body{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #6a2c70;
+}
+#submition .colortext{
+    background-color:#c060a1;
+    color: white;
+}
+#submition .colortext1{
+    background-color: #fff;
+    color: black;
+}
+/* about section */
+#about-us{
+    padding: 5% 0px;
+    /* background-color: #721b65; */
+    background-color: #f4eeff;
+}
+#about-us .about-heading{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: #6f4a8e;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+#about-us .about-content{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.smu, .sikkim, .smit, .management-dept{
+    padding: 3%;
+}
+@media (max-width: 630px){
+    .smu, .sikkim, .smit, .management-dept{
+        padding: 1.8%;
+    }
+    #about-us .about-heading{
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        color: #6f4a8e;
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+}
+/* editorial section  */
+ 
+/* #banner{
+    padding: 100px;
+    background-image: url('../image/img2.jpg');
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: 100% 100%; */
+/* }   */
+
+#banner0 { 
+    position: relative; 
+    /* height: 100vh; */
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-image: url('../image/hostel1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 100px;
+    z-index: -1;
+}
+
+#banner0::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(243, 113, 33, 0.2);
+
+    /* background-color: rgba(211, 219, 255, .55); */
+}
+#banner1 { 
+    position: relative; 
+    /* height: 100vh; */
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-image: url('../image/smit-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 100px;
+    z-index: -1;
+}
+
+#banner1::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(243, 113, 33, 0.2);
+}
+#banner2 { 
+    position: relative; 
+    /* height: 100vh; */
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-image: url('../image/smit-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 100px;
+    z-index: -1;
+}
+
+#banner2::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(243, 113, 33, 0.2);
+}
+.header-bg-custom{
+    background-color: #f37121;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+
+}
+.card-bg-custom{
+    background-color: #fdd998;
+    color: black;
+}
+.list-custom{
+    background-color: #ffecc7;
+}
+.row-custom{
+    padding: 10px 5px;
+}
+.editorial-heading{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #fff;
+    padding: 3%;
+    position: relative;
+    z-index: 1;
+}
+footer{
+    background-color: #000033;
+    /* background-color: #393e46; */
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
